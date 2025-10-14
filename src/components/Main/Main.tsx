@@ -3,7 +3,7 @@
 const Main = () => {
   return(
     <>
-    <main>
+    <main id="main">
 
 
         <div  style={{  marginTop: "15px", textAlign: "center"}}>
@@ -20,7 +20,7 @@ const Main = () => {
         </h3></center>
         <div className="places">
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/la-paz.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/la-paz.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">La Paz - (lugar de las cabañas)</h5>
                
@@ -28,7 +28,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/loma-bola.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/loma-bola.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Loma Bola - 3km</h5>
                
@@ -36,7 +36,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/san-javier.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/san-javier.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">San Javier - 25km</h5>
                
@@ -44,7 +44,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/villa-rosas.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/villa-rosas.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Villa de Las Rosas - 39km</h5>
                
@@ -52,7 +52,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/quebrada-pozos.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/quebrada-pozos.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Quebrada de los Pozos - 55km</h5>
                
@@ -60,7 +60,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/nono.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/nono.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Nono - 62km</h5>
                
@@ -68,7 +68,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/las-rabonas.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/las-rabonas.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Las Rabonas - 65km</h5>
                
@@ -76,7 +76,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/mina-clavero.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/mina-clavero.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Mina Clavero - 82km</h5>
                
@@ -84,7 +84,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card"  style={{  width: "18rem" }}>
-            <img src="imgs/lugares/cura-brochero.jpg" className="card-img-top" alt="..." height="191px" />
+            <img src="/lugares/cura-brochero.jpg" className="card-img-top" alt="..." height="191px" />
             <div className="card-body">
               <h5 className="card-title">Villa Cura Brochero - 84km</h5>
                
@@ -145,31 +145,31 @@ const Main = () => {
       <div id="carousel" className="carousel">
 
         <div id='item_1' className="hideLeft">
-          <img src="imgs/complejo/1.jpg" height="340" />
+          <img src="/complejo/1.jpg" height="340" />
         </div>
 
         <div id='item_2' className="prevLeftSecond">
-          <img src="imgs/complejo/2.jpg" height="340" />
+          <img src="/complejo/2.jpg" height="340" />
         </div>
 
         <div id='item_3' className="prev">
-          <img src="imgs/complejo/3.jpg" height="340" />
+          <img src="/complejo/3.jpg" height="340" />
         </div>
 
         <div id='item_4' className="selected">
-          <img src="imgs/complejo/4.jpg" height="340" />
+          <img src="/complejo/4.jpg" height="340" />
         </div>
 
         <div id='item_5' className="next">
-          <img src="imgs/complejo/5.jpg" height="340" />
+          <img src="/complejo/5.jpg" height="340" />
         </div>
 
         <div id='item_6' className="nextRightSecond">
-          <img src="imgs/complejo/6.jpg" height="340" />
+          <img src="/complejo/6.jpg" height="340" />
         </div>
 
         <div id='item_7' className="hideRight">
-          <img src="imgs/complejo/img.jpg" height="340" />
+          <img src="/complejo/img.jpg" height="340" />
         </div>
 
 
