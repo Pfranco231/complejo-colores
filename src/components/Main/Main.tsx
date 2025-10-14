@@ -4,7 +4,7 @@ const Main = () => {
   return(
     <>
     <main id="main">
-
+        <img src="/Version2.png" alt="" style={{ height: "600px" }}/>
 
         <div  style={{  marginTop: "15px", textAlign: "center"}}>
             <h1><strong>Colores de las Sierras</strong></h1>
