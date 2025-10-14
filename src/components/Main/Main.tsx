@@ -142,45 +142,7 @@ const Main = () => {
                 <center id="img-place">
             <h3><strong>Imágenes</strong></h3>
           </center>
-      <div id="carousel" className="carousel">
 
-        <div id='item_1' className="hideLeft">
-          <img src="/complejo/1.jpg" style={{ height: "340px" }} />
-        </div>
-
-        <div id='item_2' className="prevLeftSecond">
-          <img src="/complejo/2.jpg" style={{ height: "340px" }} />
-        </div>
-
-        <div id='item_3' className="prev">
-          <img src="/complejo/3.jpg" style={{ height: "340px" }} />
-        </div>
-
-        <div id='item_4' className="selected">
-          <img src="/complejo/4.jpg" style={{ height: "340px" }} />
-        </div>
-
-        <div id='item_5' className="next">
-          <img src="/complejo/5.jpg" style={{ height: "340px" }} />
-        </div>
-
-        <div id='item_6' className="nextRightSecond">
-          <img src="/complejo/6.jpg" style={{ height: "340px" }} />
-        </div>
-
-        <div id='item_7' className="hideRight">
-          <img src="/complejo/img.jpg" style={{ height: "340px" }} />
-        </div>
-
-
-      </div>
-
-      <div className="buttons">
-    	  <button className="button-82-pushable" role="button" id="prev"><span className="button-82-shadow"></span><span className="button-82-edge"></span><span className="button-82-front text">Anterior</span></button>
-
-
-    	  <button className="button-82-pushable" role="button" id="next"><span className="button-82-shadow"></span><span className="button-82-edge"></span><span className="button-82-front text">Próximo</span></button>
-      </div>
 
 
         
@@ -188,5 +150,6 @@ const Main = () => {
     </>
   )
 }
+
 
 export default Main
