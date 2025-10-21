@@ -13,6 +13,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={ <Main />} />
+        <Route path="*" element={<center><h3>404: Página no encontrada</h3></center>} />
       </Routes>
       <Footer />
     </BrowserRouter>
